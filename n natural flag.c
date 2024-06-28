@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+int i,n,flag;
+scanf("%d",&n);
+i=1;
+flag=0;
+while(i<=n)
+    {
+        if(flag==0)
+        {
+            printf("%d",i);
+            flag=1;
+            }
+            else
+                {
+                    printf(",%d",i);
+                    }
+                    i++;
+                    }
+                    }
